@@ -1,0 +1,40 @@
+- ¿Qué es lo que más te gusta sobre Javascript? ¿Qué es lo que menos te gusta?
+  Si has usado o conoces Typescript, ¿cómo mejora o empeora la experiencia de desarrollo?
+
+R: La flexibilidad, aprendi a programar en Java y son un mundo de diferencia.
+Por ejemplo las arrow function las use bastante cuando trabaje con React, y 
+adoraba como poder hacer una funcion al instante y casi que en cualquier parte
+del codigo. 
+
+No he usado Typescript, aun así se que es muy usado para aplicaciones
+de gran escala por la parte de tipos de datos, modulos, interfaces, POO en general, etc.
+Creo que su mayor atractivo es al momento de generar la arquitectura de tu aplicación,
+te permite hacerlo de una manera más comodo. 
+
+- ¿Has usado React o Vue? ¿Cómo compararías desarrollar una aplicación web con alguno de
+  estos frameworks vs hacerlo sólo usando Javascript y el DOM?
+
+R: He usado React y ahora mismo estoy aprendiendo y usando Vue. No creo que haya comparación
+a usar JS solamente, aparte de todas las herramientas que tienes que te ayudan al acceso de
+los datos como el Vuex de Vue, tienes una manera de acomodar la información en componentes que
+te ayuda mucho a la organización y la estandarización.
+
+- Si has usado React o Vue, ¿usaste alguna estrategia, arquitectura o framework para manejar
+  el estado de la aplicación?
+
+R: Con React pues basicamente fue ir pasando datos por hooks, pero no creo que hubiera mucha arquitectura
+en realidad. Siendo honesto he hecho más diseño de flujo de datos y clases en Java, ahora mismo estoy trabajando
+en el diseño de un proyecto en Vue pero aun estoy un poco verde.
+
+- ¿Has usado un ORM? Si es así, menciona sus ventajas y desventajas.
+
+R: Nunca lo he usado pero si me toco estudiarlo un poco. Entiendo que una de sus grandes ventajas es que al 
+volver las tablas una entidad, te permite traducir las queries a tu base de datos. El pero es que como tiene
+que traducir si la persona no sabe usarla correctamente puede tener un gran impacto a la eficiencia.
+
+- Explica el N+1 query problem (en el contexto de un backend que se comunica a una base de datos)
+  [Esta es muy nice to have, no espero que los candidatos la sepan].
+
+R: Tambien me toco leer cuando vi un poco de ORM, tiene que ver con la eficiencia.
+Los ORM cargan las queries basandose en las relaciones padre-hijo por default, entonces
+en lugar de cargar una query cargas muchas y terminas sobrecargando el trafico a la db.
